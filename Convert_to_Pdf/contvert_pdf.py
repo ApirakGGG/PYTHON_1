@@ -7,6 +7,7 @@ pdf.set_auto_page_break(auto=True, margin=10)
 pdf.add_page()
 
 # เพิ่มฟอนต์ภาษาไทย
+    # ใช้ raw string โดยการเติมตัว r ข้างหน้า ป้องกันError
 pdf.add_font('Sarabun-Bold', '', r'D:\convret_pdf\font\Sarabun-Bold.ttf', uni=True)
 pdf.set_font('Sarabun-Bold', size=10)  # กำหนดฟอนต์และขนาด
 
